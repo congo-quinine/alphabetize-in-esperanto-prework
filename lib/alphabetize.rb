@@ -5,6 +5,7 @@ def alphabetize(arr)
    arr.sort do |a,b|
     a<=>b
   end
+  return arr
 end
   arr
 end
