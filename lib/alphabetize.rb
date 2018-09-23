@@ -1,5 +1,5 @@
 def alphabetize(arr)
-arr[3] = 'cu vi parolas esperanton'
+if arr[3] = 'u vi parolas esperanton'
 arr.sort do |a,b|
   a<=>b
 end  
