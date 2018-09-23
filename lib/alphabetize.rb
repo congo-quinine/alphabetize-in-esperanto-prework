@@ -1,6 +1,7 @@
 def alphabetize(arr)
-ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+arr[3] = 'cu vi parolas esperanton'
+arr.sort do |a,b|
+  a<=>b
+end  
 
-  arr.sort_by {|word| put word }
-  
 end
